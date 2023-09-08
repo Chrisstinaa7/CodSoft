@@ -1,0 +1,301 @@
+body{
+    font-family: "ubuntu";
+    font-size: 18px;
+}
+p{
+    line-height: 1.5;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    background: url(/images/bg.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+header ul {
+    list-style-type: none;
+    margin-right: 100px;
+    float: right;
+}
+  
+header li{
+    display: inline-block;
+    padding: 30px 20px;
+}
+
+li a{
+    text-decoration: none;
+}
+.head{
+    font-family: "Montserrat";
+    color: #fff;
+}
+.head:hover{
+    color: rgb(240, 162, 110);
+}
+.logo{
+    color: #fff;
+    font-family: "Montserrat";
+    font-size: 30px;
+    padding-left: 100px;
+}
+
+/* text in header */
+.main-heading{
+    color: #fff;
+    font-family: "Montserrat";
+    font-size: 3rem;
+    line-height: 1.5;
+    padding: 100px;
+    padding-right: 600px;
+    padding-bottom: 40px;
+}
+.main-text{
+    font-family: "ubuntu";
+    color: #fff;
+    line-height: 1.5;
+    padding: 100px;
+    padding-right: 600px;
+    padding-top: 0px;
+    padding-bottom: 40px;
+}
+
+li .downloadbutton{
+    margin-left: 200px;
+    margin-right: 10px;
+}
+header .btn {
+    font-family: "Montserrat";
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #cc573a;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+header .btn:hover {
+    background-color: #db6a4e;
+}
+  /* first section */
+  
+  .feature-box{
+    
+    width: 40%;
+    margin: 40px auto 40px auto;
+    font-family: "Montserrat";
+    text-align: left; 
+    padding: 30px 0px;
+   
+  }
+  .features-text{
+    font-family: "ubuntu";
+   padding: 20px 0px;
+    color: #5c5c5c;
+
+  }
+  
+  .icon{
+    padding-bottom: 10px;
+    width: 25%;
+    float: left;
+    margin-right: 20px;
+  }
+  .two{
+    float: right;
+  }
+
+  /* testimonial section */
+  #testimonials{
+    background-color: #cc573a;
+  }
+  .testimonial-section {
+    
+    display: flex;
+    justify-content: center;
+   
+    padding: 20px;
+  }
+
+.testimonial {
+    text-align: center;
+    padding: 20px;
+    border: 5px solid #fff;
+    border-radius: 10px;
+    background-color: #ffa86e;
+    
+    width: 30%;
+
+    margin-bottom: 200px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 100px;
+    
+}
+.user {
+   width: 30%;
+   float: left;
+  
+}
+
+.testimonial p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.testimonial h3 {
+    font-size: 20px;
+    color: #000000;
+    margin: 10px 0;
+    font-family: "Montserrat";
+    padding-top: 40px;
+}
+.testimonial-heading {
+    margin: auto;
+    font-family: "Montserrat";
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 100px;
+    padding-top: 100px;
+    color: #ffffff; 
+}
+.small-heading{
+    font-family: "Montserrat";
+    text-align: center;
+    padding: 30px 0 0 0;
+    font-size: 1.3rem;
+    color: #fff;
+}
+  /* pricing section */
+  .price-plans ul {
+    list-style: none;
+    padding: 0;
+}
+
+.price-plans ul li {
+    margin: 20px;
+}
+
+
+.price-plans h2 {
+    font-size: 24px;
+    font-family: "Montserrat";
+    color: #000000;
+    margin-bottom: 20px; /* Add some spacing between heading and divs */
+    margin-top: 20px;
+}
+.price-plans h3{
+    color: #919090;
+    padding-bottom: 70px;
+}
+ .price-plans {
+    /* background-color: rgb(233, 233, 233); */
+    display: flex;
+    flex-direction: column; /* Stack the items vertically */
+    align-items: center; /* Center items horizontally */
+    padding: 20px 0; /* Adjust padding to your preference */
+}
+.price-heading{
+    font-size: 2.5rem;
+    font-family: "Montserrat";
+    padding-top: 50px;
+    color: #000000;
+}
+.plan-container {
+    display: flex; /* Display plans horizontally */
+    justify-content: center; /* Center plans horizontally */
+    flex-wrap: wrap; /* Allow for wrapping items to the next line */
+    gap: 20px; /* Adjust the spacing between plans */
+}
+.plan {
+    border: 5px solid #000000;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    width: 30%;
+    /* background-color: #f7f4f4; */
+    margin: 20px 0; /* Adjust margin to your preference */
+}
+.price {
+    font-size: 28px;
+    color: #919090;
+    margin: 10px 0;
+    padding-bottom: 30px;
+}
+
+/* buttons for pricing */
+.btn {
+    font-family: "Montserrat";
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0a0707;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+.btn:hover {
+    background-color: #636060;
+}
+  
+#sign-up .btn {
+    font-family: "Montserrat";
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #cf6b28;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 100px;
+    margin-right: 20px ;
+}
+
+#sign-up .btn:hover {
+    background-color: #ee8b49;
+}
+#sign-up{
+    background-color: #ffa86e;
+    text-align: center;
+    
+}
+.sign-heading{
+    margin: auto;
+    font-family: "Montserrat";
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 50px 100px;
+    padding-top: 100px;
+    color: #ffffff;
+}
+#footer {
+    text-align: center;
+    padding: 50px;
+    
+}
+#footer a{
+    text-decoration: none;
+    color: #000;
+}
+.footer-text {
+    color: rgb(0, 0, 0);
+}
+
+.footicon {
+    padding: 2% 1%;
+}
+.footicon:hover{
+    color: #636060;
+}
+
+
+.rating{
+    width: 35%;
+}

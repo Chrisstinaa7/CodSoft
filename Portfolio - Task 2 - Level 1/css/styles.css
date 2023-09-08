@@ -1,0 +1,291 @@
+
+#header{
+    
+    background: url(/images/bg.jpg); /*image by tohamina from free pik*/
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.container-fluid {
+    padding: 30px 30px;
+}
+
+/* nav-bar */
+.navbar {
+    padding: 0px 0px 1rem;
+    
+}
+
+.navbar-brand {
+    font-family: "ubuntu";
+    font-size: 2rem;
+    font-weight: bold;
+    margin-left: 30px;
+    letter-spacing: 2px;
+    
+    
+}
+.nav-item {
+    padding: 0px 18px;
+    
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+    color: #fff;
+    border-radius: 20px;
+    font-weight: 700;
+    position: relative;
+}
+.nav-link::after{
+    content: "";
+    width: 0;
+    height: 2px;
+    background-color: #7597de;
+    position: absolute;
+    left: 0;
+    top: 110%;
+    transition: all 0.4s; 
+}
+.nav-link:hover::after {
+    width: 100%;
+
+}
+.btn{
+    background: transparent;
+    font-weight: 700;
+    position: relative;
+    color: #fff;
+}
+.btn::after{
+    content: "";
+    width: 0;
+    height: 2px;
+    background-color: #7597de;
+    position: absolute;
+    left: 0;
+    top: 110%;
+    transition: all 0.4s; 
+}
+.btn:hover::after {
+    width: 100%;
+    background-color: #7597de;
+
+}
+
+
+/* main content */
+.content{
+    
+    
+    margin-top: 120px;
+    color: white;
+    
+}
+.big-heading{
+    font-size: 3rem;
+    padding-bottom: 20px;
+    font-weight: bold;
+    padding-top: 35px;
+}
+
+.text-brand{
+    font-size: 3rem;
+    padding-bottom: 20px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+/* about section */
+#about{
+    color: #1d1e30;
+    padding-top: 100px;
+    font-weight: 700;
+    padding-bottom: 100px;
+    
+}
+.about-heading{
+    font-size: 3rem;
+    padding: 10px;
+    font-weight: bold;
+    color: #000000;
+    border-radius: 10px;
+    background-color: #decbec;
+    border: 5px solid #2f024d;
+    text-align: center;
+}
+
+.about-content{
+    padding: 30px;
+    border: 5px solid #2f024d;
+    border-radius: 10px;
+    background-color: #decbec;
+    color: #3d3e44;
+}
+.img-about{
+    margin-left: 50px;
+    margin-top: 100px;
+    border-radius: 10px;
+    border: 5px solid #2f024d;
+}
+/* skills section */
+#skills{
+    background-color: #a5a6be; 
+    color: #1d1e30;
+    text-align: center;
+}
+.section-heading{
+    font-size: 3rem;
+    padding: 10px;
+    font-weight: bold;
+    
+    border-radius: 10px;
+    background-color: #bfc1e0; /*dfe1ff*/
+    border: 5px solid #1d1e30;
+}
+.skills{
+    padding-top: 70px;
+    padding-bottom: 20px;
+}
+.skills-item{
+    margin: 0 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #bfc1e0;
+    border: 5px solid #1d1e30;
+}
+#skills h3{
+    padding-bottom: 30px;
+    padding-top: 20px;
+    
+    
+}
+.icon{
+    width: 30%;
+}
+
+/* projects section */
+#projects{
+    color: #1d1e30;
+    text-align: center;
+  
+}
+#projects .section-heading{
+    font-size: 3rem;
+    padding: 10px;
+    font-weight: bold;
+    
+    border-radius: 10px;
+    background-color: #decbec; /*dfe1ff*/
+    border: 5px solid #1d1e30;
+}
+.projects{
+    padding-top: 70px;
+    padding-bottom: 20px;
+}
+.projects-item{
+    margin: 0 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #decbec;
+    border: 5px solid #1d1e30;
+}
+#projects h3{
+    padding-bottom: 30px;
+    padding-top: 20px;
+    
+}
+
+#projects .icon{
+    width: 25%;
+}
+ /* contact section */
+#contact{
+    background: url(/images/last.jpg); /*image by tohamina from free pik*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 200px;
+  
+}
+
+.contact-heading{
+   
+   
+    font-size: 2.5rem;
+    font-weight: bold;
+    background: none;
+    color: #fff;
+    border: none;
+    padding-bottom: 70px;
+}
+#contact .form-control{
+    background-color: #f4f4fc;
+    
+}
+
+/* footer */
+#footer{
+    color: #fcf9f9;
+    padding-top: 150px;
+    padding-bottom: 30px;
+}
+#footer p{
+    font-size: 1rem;
+}
+.footicon{
+    color: #ffffff;
+    padding: 12px 10px;
+    width: 8%;
+}
+ /* resume section */
+#resume{
+    color: #1d1e30;
+    padding-top: 100px;
+    font-weight: 700;
+    padding-bottom: 100px;
+    /* background-color: #d7d9f7; */
+    
+}
+.resume-heading{
+    font-size: 3rem;
+    padding: 10px;
+    font-weight: bold;
+    color: #000000;
+    border-radius: 10px;
+    background-color: #beb2fc;
+    border: 5px solid #2f024d;
+    text-align: center;
+}
+
+.resume-content{
+    padding: 30px;
+    border: 5px solid #2f024d;
+    border-radius: 10px;
+    background-color: #beb2fc;
+    color: #3d3e44;
+}
+.img-resume{
+    margin-left: 50px;
+   
+    border-radius: 10px;
+    border: 5px solid #2f024d;
+}
+/* extra styling */
+ #skills,#projects,#resume,#about{
+    background: url(/images/bgskills.jpg); /*image by tohamina from free pik*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 200px;
+  
+  
+} 
+
+#projects .btn, #resume .btn{
+    color: #000;
+}
